@@ -1,0 +1,54 @@
+#Navbar {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    padding: 1rem 5% 1rem;
+    position:fixed;
+    background-color: white;
+}
+#Navbar .primary-color {
+    font-size: 2rem;
+    color: #14bdad;
+    font-weight: 600;
+    cursor: default;
+}
+.button {
+    background-color: #14bdad;
+    border: none;
+    border-radius: 45px;
+    border:solid #14bdad;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 15px 2px;
+    cursor: pointer;
+}
+
+.ant-anchor-link-title {
+    color: #14bdad; 
+    text-decoration: none;
+    margin-right: 25px;
+    font-size: 1.2rem;
+    font-weight: 500;
+} 
+.ant-anchor-link:hover {
+    color: red;
+}
+:where(.css-dev-only-do-not-override-12upa3x).ant-anchor-wrapper .ant-anchor .ant-anchor-link-active>.ant-anchor-link-title {
+    color: #14bdad;
+}
+:where(.css-dev-only-do-not-override-12upa3x).ant-anchor-wrapper-horizontal .ant-anchor .ant-anchor-ink {
+    position: absolute;
+    bottom: 0;
+    transition: left 0.3s ease-in-out,width 0.3s ease-in-out;
+    height: 2px;
+    background-color:#14bdad;
+}

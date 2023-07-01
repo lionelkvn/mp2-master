@@ -1,0 +1,102 @@
+
+  .Home {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1f242d;
+    padding: 2rem 8% 2rem;
+  }
+  
+  .HomeImage {
+    width: 60%;
+  }
+  
+  .HomeContent {
+    width: 40%;
+    text-align: right;
+  }
+  
+  .Home img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .Home .primary-color {
+    font-size: 60px;
+    color: #14bdad;
+    font-weight: 600;
+    cursor: default;
+  }
+  
+  .HomeContent h1 {
+    font-size: 60px;
+  }
+  
+  .HomeContent h2 {
+    font-weight: 500;
+  }
+  
+  .Home .button {
+    background-color: #14bdad;
+    border: none;
+    border-radius: 45px;
+    border: solid #14bdad;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px 2px;
+    cursor: pointer;
+  }
+  
+  .Home .button:hover {
+    background-color: transparent;
+    color: #14bdad;
+    border-color: #14bdad;
+  }
+  
+  @media (max-width: 768px) {
+    .Home {
+      padding: 2rem 4% 2rem;
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .HomeImage {
+      width: 80%;
+    }
+  
+    .HomeContent {
+      width: 100%;
+      text-align: center;
+      margin-top: 20px;
+    }
+  
+    .HomeContent .primary-color h1 {
+      font-size: 40px;
+    }
+  
+    .HomeContent h2 {
+      font-size: 18px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .Home {
+      padding: 2rem 2% 2rem;
+    }
+  
+    .HomeContent h1 {
+      font-size: 30px;
+    }
+  
+    .HomeContent h2 {
+      font-size: 16px;
+    }
+  }
+  
+  
